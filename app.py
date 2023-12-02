@@ -9,7 +9,7 @@ st.title("pandas-ai streamlit interface")
 
 st.write("A demo interface for [PandasAI](https://github.com/gventuri/pandas-ai)")
 st.write(
-    "Looking for an example *.csv-file?, check [here](https://gist.github.com/netj/8836201) (Download ZIP)."
+    "Looking for an example *.csv-file?, check the main directory"
 )
 
 if "openai_key" not in st.session_state:
