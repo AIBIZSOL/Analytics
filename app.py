@@ -5,11 +5,11 @@ from pandasai.llm.openai import OpenAI
 import matplotlib.pyplot as plt
 import os
 
-st.title("pandas-ai streamlit interface")
+st.title("Pandas-AI Interface")
 
 st.write("A demo interface for [PandasAI](https://github.com/gventuri/pandas-ai)")
 st.write(
-    "Looking for an example *.csv-file?, check the main directory"
+    "Ready to upload a csv file for analysis, just ask what you want to know from the file in English"
 )
 
 if "openai_key" not in st.session_state:
