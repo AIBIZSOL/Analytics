@@ -5,7 +5,7 @@ from pandasai.llm.openai import OpenAI
 import matplotlib.pyplot as plt
 import os
 
-st.title("Descriptive and Diagnosis Data Analytics - AI Assistant")
+st.title("Descriptive and Diagnosis      Data Analytics - AI Assistant")
 
 st.write("Just upload a csv file for analysis [PandasAI](https://github.com/gventuri/pandas-ai)")
 st.write(
