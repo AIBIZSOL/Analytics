@@ -5,11 +5,11 @@ from pandasai.llm.openai import OpenAI
 import matplotlib.pyplot as plt
 import os
 
-st.title("Pandas-AI Interface")
+st.title("Data Descriptive and Diagnosis Analytics - AI Assistant")
 
-st.write("A demo interface for [PandasAI](https://github.com/gventuri/pandas-ai)")
+st.write("Just upload a csv file for analysis [PandasAI](https://github.com/gventuri/pandas-ai)")
 st.write(
-    "Ready to upload a csv file for analysis, just ask what you want to know from the file in English"
+    "Ask what you want to know, even plot from the file in English, e.g. what is average of X conditional on Y > some number"
 )
 
 if "openai_key" not in st.session_state:
