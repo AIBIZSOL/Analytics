@@ -3,7 +3,7 @@ streamlit
 matplotlib
 BeautifulSoup4
 langchain
-sckit-learn
+scikit-learn
 ggplot
 plotly
 seaborn
