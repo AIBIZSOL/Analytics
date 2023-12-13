@@ -2,3 +2,8 @@ pandasai==1.2.8
 streamlit
 matplotlib
 BeautifulSoup4
+langchain
+sckit-learn
+ggplot
+plotly
+seaborn
